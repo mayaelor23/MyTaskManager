@@ -1,0 +1,42 @@
+.right-panel {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 280px;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fdfdfd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input,
+select,
+button {
+  padding: 0.5rem;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,47 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.TitleWithDate {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.TitleWithDate h1 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.TitleWithDate h2 {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+}
+
+.UserCircle {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background-color: rgba(228, 146, 216, 0.2);
+  border: 3px solid rgb(193, 131, 230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+.UserCircle h2 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+
+

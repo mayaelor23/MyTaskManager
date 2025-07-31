@@ -1,0 +1,74 @@
+.bodyContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+/* צד שמאל – Status Circles + רשימת משימות */
+.left-panel {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* מעגלי סטטוס */
+.status-circles {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.status-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 3px solid #ccc;
+}
+
+.status-circle.open {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.status-circle.in-progress {
+  border-color: #f5a623;
+  color: #f5a623;
+}
+
+.status-circle.done {
+  border-color: #28a745;
+  color: #28a745;
+}
+
+/* כרטיסי משימות */
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.task-card h3 {
+  margin: 0 0 0.5rem;
+}
+
+.task-card p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #444;
+}

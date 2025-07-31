@@ -1,0 +1,24 @@
+GET http://localhost:4001
+
+POST http://localhost:4001/api/tasks/create
+Content-Type: application/json
+
+{
+  "title": "tal and maya",
+  "description":"heyy all abc",
+  "statusTask": "done",
+  "priorityTask": "high",
+  "dueDate": "2025-08-01"
+}
+
+GET http://localhost:4001/api/tasks/
+
+GET http://localhost:4001/api/tasks/stats?status=done
+
+
+PATCH http://localhost:4001/api/tasks/6880988d12a21e6fae76a0bd/status
+Content-Type: application/json
+
+{
+  "newStatus": "open"
+}
